@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="page">
+
+  <div class="message-bar">
+    <button class="message-bar__button">
+      <img class="message-bar__button-icon" src="./assets/icons/add.svg" alt="Attachments">
+    </button>
+    <textarea class="message-bar__input" placeholder="Message"></textarea>
+    <ul class="message-bar__attachment-buttons">
+      <li>
+        <input id="inputVideoCamera" class="message-bar__attachment-input visually-hidden" type="file" capture="environment" accept="video/*" disabled>
+        <label for="inputVideoCamera" class="message-bar__attachment-button message-bar__attachment-button--video">
+          <img class="message-bar__button-icon" src="./assets/icons/video_camera.svg" alt="Record a video">
+        </label>
+      </li>
+      <li>
+        <input id="inputPhotoCamera" class="message-bar__attachment-input visually-hidden" type="file" capture="environment" accept="image/*" disabled>
+        <label for="inputPhotoCamera" class="message-bar__attachment-button message-bar__attachment-button--photo">
+          <img class="message-bar__button-icon" src="./assets/icons/photo_camera.svg" alt="Make a photo">
+        </label>
+      </li>
+      <li>
+        <input id="inputFile" class="message-bar__attachment-input visually-hidden" type="file" disabled>
+        <label for="inputFile" class="message-bar__attachment-button message-bar__attachment-button--gallery">
+          <img class="message-bar__button-icon" src="./assets/icons/gallery.svg" alt="Choose media from the gallery">
+        </label>
+      </li>
+    </ul>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
