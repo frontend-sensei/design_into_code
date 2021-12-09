@@ -4,4 +4,4 @@
 
 ## Demos
 
-- [Chat bar](#4_chat_bar)
+- [Chat bar](4_chat_bar)
