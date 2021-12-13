@@ -4,4 +4,5 @@
 
 ## Demos
 
+- [Switch #1](2_switch)
 - [Chat bar](4_chat_bar)
