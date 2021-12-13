@@ -1,0 +1,18 @@
+{
+  "name": "vokyl-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "browser-sync start --server --files '*.html' '**/*.css'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7"
+  },
+  "engines": {
+    "node": ">=v14.18.1"
+  }
+}
