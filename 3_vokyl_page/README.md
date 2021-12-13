@@ -1,11 +1,11 @@
-# Switch
+# Vokyl page
 
 [YouTube video](https://youtu.be/gTmKY2AlXAE)
 
-Design by: Fábio Oliveira
+Design by: Hippie Mao
 
-- [Instagram](https://www.instagram.com/fabio0oliveira/)
-- [Dribbble](https://dribbble.com/fabioooliveira)
+- [Dribbble](https://dribbble.com/HippieMao)
+- [zcool](https://www.zcool.com.cn/u/15035750)
 
 Code by: Yaroslav Gulnazaryan
 

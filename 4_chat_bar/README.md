@@ -1,5 +1,7 @@
 # Chat Bar
 
+[YouTube video](https://youtu.be/cQh-Uyxkmiw)
+
 Design by: Oleg Frolov
 
 - [Instagram](https://www.instagram.com/olegdesignfrolov/)
