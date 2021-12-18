@@ -1,6 +1,6 @@
 # Design into code
 
-[YouTube Frontend Sensei](https://www.youtube.com/channel/UC7jb3lYbDmI4OrMDUMzEmsw)
+[YouTube Frontend Sensei](https://www.youtube.com/c/FrontendSensei)
 
 ## Demos
 
