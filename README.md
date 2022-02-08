@@ -8,3 +8,4 @@
 - [#3 Vokyl Page](3_vokyl_page)
 - [#4 Chat bar](4_chat_bar)
 - [#5 Switch](5_switch)
+- [#6 Switch](6_switch)
