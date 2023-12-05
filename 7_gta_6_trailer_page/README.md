@@ -4,7 +4,7 @@ Total time design: 1h 30min
 
 Total time coding: 30min
 
-[YouTube video](https://youtu.be/qA1yys7xgaw)
+[YouTube video](https://youtu.be/0thQ4lZBIfI)
 
 Logo used from Rockstar Games. All rights for logo reserved by Rockstar Games.
 Author of the video used it just for fun without any commercial goal.
