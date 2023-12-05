@@ -9,3 +9,4 @@
 - [#4 Chat bar](4_chat_bar)
 - [#5 Switch](5_switch)
 - [#6 Switch](6_switch)
+- [#7 GTA 6 Trailer page](7_gta_6_trailer_page)

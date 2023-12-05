@@ -1,0 +1,65 @@
+.page {
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: center / cover url("./bg.png") no-repeat;
+}
+
+.object {
+    position: absolute;
+}
+
+.tree-1 {
+    height: 90vh;
+    left: 1%;
+    bottom: -10px;
+}
+
+.tree-2 {
+    height: 50vh;
+    left: 10%;
+    bottom: -10px;
+}
+
+.tree-3 {
+    height: 99vh;
+    right: 1%;
+    bottom: -10px;
+}
+
+.bird-1 {
+    width: 190px;
+    top: 27%;
+    right: 65%;
+}
+.bird-2 {
+    width: 60px;
+    top: 45%;
+    right: 62%;
+}
+.logo {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo-svg {
+    margin: 0 auto;
+    display: block;
+}
+
+.headline {
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.headline-1 {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.headline-2 {
+    margin-top: 17px;
+    font-size: 18px;
+    line-height: 32px;
+}

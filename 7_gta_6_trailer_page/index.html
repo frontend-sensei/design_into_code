@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GTA VI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="page">
+
+<img class="object tree-1" src="./palm-tree-1.png" alt="">
+<img class="object tree-2" src="./palm-tree-2.png" alt="">
+<img class="object tree-3" src="./palm-tree-3.png" alt="">
+
+
+<img class="object bird-1" src="./bird-1.png" alt="">
+<img class="object bird-2" src="./bird-2.png" alt="">
+<div class="object logo">
+  <svg class="logo-svg" width="100" viewbox="-1 -1 128 128">
+    <defs>
+      <style type="text/css">
+        .path {
+          stroke-dasharray: 822;
+          stroke-dashoffset: 1000;
+          animation: dash 5s linear forwards;
+        }
+        .path-2 {
+          stroke-dasharray: 822;
+          stroke-dashoffset: 1000;
+          animation: dash 15s linear forwards;
+        }
+
+        @keyframes dash {
+          from {
+            stroke-dashoffset: 822;
+          }
+          to {
+            stroke-dashoffset: 0;
+          }
+        }
+        ></style>
+    </defs>
+    <g fill="none" stroke-width="2.5" stroke="white">
+      <path class="path-2" d="M48.2 36.9 L 31.2 36.9 L 35.3 17.5 L 51.1 17.5 C 56.7 17.5 62.6 19 62.6 25.8 C 62.6 34.5 55.9 36.9 48.2 36.9 Z"/>
+      <path class="path" id="p" d="M 125.5 83.2 L 98.4 83.2 L 94.1 56.2 L 78.3 83 L 75.3 83 C 73.5 79.9 72.8 75.4 72.8 72.6 C 72.8 68 73.1 63.5 73.1 57.6 C 73.1 49.8 70.8 45.7 64.7 44.2 L 64.7 44 C 77.6 42.2 83.5 33.6 83.5 21.6 C 83.5 4.5 72.1 0.8 57.2 0.8 L 17.1 0.8 L 0.1 81.2 L 21.4 81.2 L 27.6 51.9 L 41.8 51.9 C 49.4 51.9 52.5 55.6 52.5 62.7 C 52.5 68.1 51.9 72.4 51.9 76.5 C 51.9 78 52.2 81.6 53.3 83 L 68.7 99.3 L 55.4 127.8 L 83.8 110.9 L 105 127.2 L 101.1 100.3 L 125.5 83.2 Z"/>
+    </g>
+  </svg>
+  <h1 class="headline headline-1">Trailer</h1>
+  <h2 class="headline headline-2">tuesday, december 5 <br/>9 AM ET</h2>
+</div>
+<script>
+  const tree1 = document.querySelector('.tree-1')
+  const tree2 = document.querySelector('.tree-2')
+  const tree3 = document.querySelector('.tree-3')
+  const bird1 = document.querySelector('.bird-1')
+  const bird2 = document.querySelector('.bird-2')
+
+  var needForRAF = true, x, y;
+
+  function mouseMove(e) {
+    console.log(e.clientX)
+    e.preventDefault();
+    x = (e.clientX / 150);
+    y = (e.clientY / 300);
+    if (needForRAF) {
+      needForRAF = false;
+      requestAnimationFrame(update);
+    }
+  }
+
+  function update() {
+    needForRAF = true;
+    tree1.style.transform = `translate(${x}px, ${y}px)`
+    tree2.style.transform = `translate(-${x}px, ${y}px)`
+    tree3.style.transform = `translate(${x}px, -${y}px)`
+    bird1.style.transform = `translate(-${x}px, ${y}px)`
+    bird2.style.transform = `translate(${x}px, -${y}px)`
+  }
+
+  document.addEventListener("mousemove", mouseMove);
+</script>
+</body>
+</html>
