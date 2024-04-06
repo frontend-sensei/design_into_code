@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.27.7"
+    "browser-sync": "^3.0.2"
   },
   "engines": {
     "node": ">=v14.18.1"
